@@ -1,0 +1,42 @@
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.about-left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-left h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-left p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-right {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.about-right img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.about-container.reverse-row {
+    flex-direction: row-reverse;
+}

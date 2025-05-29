@@ -1,0 +1,17 @@
+/* Định dạng thông báo lỗi */
+.alert-message {
+    background-color: #f8d7da; /* Màu nền đỏ nhẹ */
+    color: #721c24; /* Màu chữ đỏ */
+    border: 1px solid #f5c6cb; /* Viền màu đỏ nhạt */
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.alert-message.success {
+    background-color: #d4edda; /* Màu nền xanh nhẹ */
+    color: #155724; /* Màu chữ xanh */
+    border: 1px solid #c3e6cb; /* Viền màu xanh nhạt */
+}
